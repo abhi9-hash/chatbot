@@ -1,0 +1,39 @@
+* {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+html,
+body {
+  max-height: 800px;
+}
+
+body {
+  background: "#edc0b";
+  background:linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ant-list-item-meta-content {
+  max-width: 500px;
+  overflow-x: scroll;
+}
+
+.ant-list-item-meta-title {
+  font-size: 20px !important;
+}
+
+.ant-list-item-meta-description {
+  display: flex;
+  color: black !important;
+}
+
+.chat{
+  background: rgba(255, 255, 255, .3);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
