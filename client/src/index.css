@@ -3,6 +3,9 @@
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+::-webkit-scrollbar{
+ background-color: transparent;
+}
 
 html,
 body {
